@@ -3,8 +3,8 @@ from pprint import pprint
 import requests
 import extruct
 from w3lib.html import get_base_url
-from config import URL
 
+URL = 'https://www.coursera.org/learn/automl-datasets-ml-models#instructors'
 
 def scrape(url: str):
     """Parse structured data from a target page."""
