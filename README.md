@@ -8,7 +8,7 @@ python3 -m venv myenv
 source myenv/bin/activate
 ```
 
-Run the crawler to fetch JSON-LD data. Edit `config.py` to place the URL.
+Run the crawler to fetch JSON-LD data. Edit `crawl.py` to place the URL.
 
 ```
 pip3 install -m requirements.txt
