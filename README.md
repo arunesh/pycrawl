@@ -1,6 +1,13 @@
 # pycrawl web crawler for generating structured data
 
 Usage:
+
+Create virtual python environment:
+```
+python3 -m venv myenv
+source myenv/bin/activate
+```
+
 ```
 pip3 install -m requirements.txt
 python3 crawl.py
